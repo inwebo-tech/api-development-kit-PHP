@@ -338,6 +338,28 @@ class apiFunctions {
         $this->printError($res);
         return $res;
     }
+
+	// Add a device for a user by its login ID, with codetype
+    public function loginAddDevice($loginId, $codetype) {
+        
+        try { 
+            $x = new API\loginAddDevice;
+            $x->userid = $this->uid;
+            $x->serviceid = $this->serviceId;
+			$x->loginid = $loginId;
+			$x->codetype = $codetype;
+			
+            
+            $resp = $this->provisioning->loginAddDevice($x);
+            $res = $resp->loginAddDeviceReturn;
+        
+        } catch (\Exception $error) {   
+            $this->printError($error);
+            return "NOK";
+        }
+		$this->printError($res);        
+        return $res;
+    }
     
     /* USER SEARCH */
     
