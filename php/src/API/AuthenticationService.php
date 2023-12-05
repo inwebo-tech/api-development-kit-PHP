@@ -104,7 +104,7 @@ class AuthenticationService extends \SoapClient {
    * @return authenticateResponse
    */
   public function authenticate(authenticate $parameters) {
-    return $this->__call('authenticate', array(
+    return $this->__soapCall('authenticate', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -121,7 +121,7 @@ class AuthenticationService extends \SoapClient {
    * @return authenticateWithIpResponse
    */
   public function authenticateWithIp(authenticateWithIp $parameters) {
-    return $this->__call('authenticateWithIp', array(
+    return $this->__soapCall('authenticateWithIp', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -138,7 +138,7 @@ class AuthenticationService extends \SoapClient {
    * @return authenticateRadiusResponse
    */
   public function authenticateRadius(authenticateRadius $parameters) {
-    return $this->__call('authenticateRadius', array(
+    return $this->__soapCall('authenticateRadius', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -155,7 +155,7 @@ class AuthenticationService extends \SoapClient {
    * @return authenticateExtendedResponse
    */
   public function authenticateExtended(authenticateExtended $parameters) {
-    return $this->__call('authenticateExtended', array(
+    return $this->__soapCall('authenticateExtended', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -172,7 +172,7 @@ class AuthenticationService extends \SoapClient {
    * @return sealVerifyResponse
    */
   public function sealVerify(sealVerify $parameters) {
-    return $this->__call('sealVerify', array(
+    return $this->__soapCall('sealVerify', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -189,7 +189,7 @@ class AuthenticationService extends \SoapClient {
    * @return sealDeferredVerifyResponse
    */
   public function sealDeferredVerify(sealDeferredVerify $parameters) {
-    return $this->__call('sealDeferredVerify', array(
+    return $this->__soapCall('sealDeferredVerify', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -206,7 +206,7 @@ class AuthenticationService extends \SoapClient {
    * @return pushAuthenticateResponse
    */
   public function pushAuthenticate(pushAuthenticate $parameters) {
-    return $this->__call('pushAuthenticate', array(
+    return $this->__soapCall('pushAuthenticate', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -223,7 +223,7 @@ class AuthenticationService extends \SoapClient {
    * @return checkPushResultResponse
    */
   public function checkPushResult(checkPushResult $parameters) {
-    return $this->__call('checkPushResult', array(
+    return $this->__soapCall('checkPushResult', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(

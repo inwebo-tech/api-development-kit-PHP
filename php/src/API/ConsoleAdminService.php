@@ -252,7 +252,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginsQueryResponse
    */
   public function loginsQuery(loginsQuery $parameters) {
-    return $this->__call('loginsQuery', array(
+    return $this->__soapCall('loginsQuery', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -269,7 +269,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginSearchResponse
    */
   public function loginSearch(loginSearch $parameters) {
-    return $this->__call('loginSearch', array(
+    return $this->__soapCall('loginSearch', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -286,7 +286,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginQueryResponse
    */
   public function loginQuery(loginQuery $parameters) {
-    return $this->__call('loginQuery', array(
+    return $this->__soapCall('loginQuery', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -303,7 +303,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginCreateResponse
    */
   public function loginCreate(loginCreate $parameters) {
-    return $this->__call('loginCreate', array(
+    return $this->__soapCall('loginCreate', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -320,7 +320,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginUpdateResponse
    */
   public function loginUpdate(loginUpdate $parameters) {
-    return $this->__call('loginUpdate', array(
+    return $this->__soapCall('loginUpdate', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -337,7 +337,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginRestoreResponse
    */
   public function loginRestore(loginRestore $parameters) {
-    return $this->__call('loginRestore', array(
+    return $this->__soapCall('loginRestore', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -354,7 +354,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginResetPwdResponse
    */
   public function loginResetPwd(loginResetPwd $parameters) {
-    return $this->__call('loginResetPwd', array(
+    return $this->__soapCall('loginResetPwd', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -371,7 +371,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginAddDeviceResponse
    */
   public function loginAddDevice(loginAddDevice $parameters) {
-    return $this->__call('loginAddDevice', array(
+    return $this->__soapCall('loginAddDevice', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -388,7 +388,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginDeleteToolResponse
    */
   public function loginDeleteTool(loginDeleteTool $parameters) {
-    return $this->__call('loginDeleteTool', array(
+    return $this->__soapCall('loginDeleteTool', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -405,7 +405,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginDeleteResponse
    */
   public function loginDelete(loginDelete $parameters) {
-    return $this->__call('loginDelete', array(
+    return $this->__soapCall('loginDelete', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -422,7 +422,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginSendByMailResponse
    */
   public function loginSendByMail(loginSendByMail $parameters) {
-    return $this->__call('loginSendByMail', array(
+    return $this->__soapCall('loginSendByMail', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -439,7 +439,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return IWDS_checkResponse
    */
   public function IWDS_check(IWDS_check $parameters) {
-    return $this->__call('IWDS_check', array(
+    return $this->__soapCall('IWDS_check', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -456,7 +456,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginGetGroupsResponse
    */
   public function loginGetGroups(loginGetGroups $parameters) {
-    return $this->__call('loginGetGroups', array(
+    return $this->__soapCall('loginGetGroups', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -473,7 +473,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginsQueryByGroupResponse
    */
   public function loginsQueryByGroup(loginsQueryByGroup $parameters) {
-    return $this->__call('loginsQueryByGroup', array(
+    return $this->__soapCall('loginsQueryByGroup', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -490,7 +490,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginResetPwdExtendedResponse
    */
   public function loginResetPwdExtended(loginResetPwdExtended $parameters) {
-    return $this->__call('loginResetPwdExtended', array(
+    return $this->__soapCall('loginResetPwdExtended', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -507,7 +507,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginGetInfoFromLinkResponse
    */
   public function loginGetInfoFromLink(loginGetInfoFromLink $parameters) {
-    return $this->__call('loginGetInfoFromLink', array(
+    return $this->__soapCall('loginGetInfoFromLink', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -524,7 +524,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginGetCodeFromLinkResponse
    */
   public function loginGetCodeFromLink(loginGetCodeFromLink $parameters) {
-    return $this->__call('loginGetCodeFromLink', array(
+    return $this->__soapCall('loginGetCodeFromLink', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -541,7 +541,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginActivateCodeResponse
    */
   public function loginActivateCode(loginActivateCode $parameters) {
-    return $this->__call('loginActivateCode', array(
+    return $this->__soapCall('loginActivateCode', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -558,7 +558,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return loginResetPINErrorCounterResponse
    */
   public function loginResetPINErrorCounter(loginResetPINErrorCounter $parameters) {
-    return $this->__call('loginResetPINErrorCounter', array(
+    return $this->__soapCall('loginResetPINErrorCounter', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -575,7 +575,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return serviceGroupsQueryResponse
    */
   public function serviceGroupsQuery(serviceGroupsQuery $parameters) {
-    return $this->__call('serviceGroupsQuery', array(
+    return $this->__soapCall('serviceGroupsQuery', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -592,7 +592,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return groupAccountQueryResponse
    */
   public function groupAccountQuery(groupAccountQuery $parameters) {
-    return $this->__call('groupAccountQuery', array(
+    return $this->__soapCall('groupAccountQuery', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -609,7 +609,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return groupAccountCreateResponse
    */
   public function groupAccountCreate(groupAccountCreate $parameters) {
-    return $this->__call('groupAccountCreate', array(
+    return $this->__soapCall('groupAccountCreate', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -626,7 +626,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return groupAccountUpdateResponse
    */
   public function groupAccountUpdate(groupAccountUpdate $parameters) {
-    return $this->__call('groupAccountUpdate', array(
+    return $this->__soapCall('groupAccountUpdate', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
@@ -643,7 +643,7 @@ class ConsoleAdminService extends \SoapClient {
    * @return groupAccountDeleteResponse
    */
   public function groupAccountDelete(groupAccountDelete $parameters) {
-    return $this->__call('groupAccountDelete', array(
+    return $this->__soapCall('groupAccountDelete', array(
             new \SoapParam($parameters, 'parameters')
       ),
       array(
